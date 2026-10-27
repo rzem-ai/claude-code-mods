@@ -1,19 +1,25 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "swarm",
   "version": "0.1.0",
+  "displayName": "Coder Swarm",
   "description": "Mission control for subagents and agent teams: who is running, what each is doing, who spawned whom, who is talking to whom, and how they overlap",
   "types": "./types/index.d.ts",
   "license": "MIT",
   "author": {
-    "name": "OneWave AI",
-    "url": "https://www.onewave-ai.com"
+    "name": "Alex",
+    "email": "alex@rzem.com",
+    "url": "https://github.com/rzem-ai"
   },
-  "homepage": "https://github.com/OneWave-AI/claude-code-mods/tree/main/swarm",
-  "repository": "https://github.com/OneWave-AI/claude-code-mods",
-  "displayName": "Swarm",
-  "icon": "./.claude-plugin/icon.png",
-  "documentationUrl": "https://github.com/OneWave-AI/claude-code-mods/blob/main/swarm/README.md",
-  "supportUrl": "https://www.onewave-ai.com/contact",
-  "privacyPolicyUrl": "https://www.onewave-ai.com/privacy",
-  "termsOfServiceUrl": "https://www.onewave-ai.com/terms"
+  "homepage": "https://github.com/rzem-ai/claude-code-mods",
+  "repository": "https://github.com/rzem-ai/claude-code-mods",
+  "keywords": [
+    "agents",
+    "subagents",
+    "skills",
+    "workflows",
+    "hooks",
+    "fleet",
+    "board"
+  ]
 }
