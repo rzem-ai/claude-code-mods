@@ -5,15 +5,15 @@
   "types": "./types/index.d.ts",
   "license": "MIT",
   "author": {
-    "name": "OneWave AI",
-    "url": "https://www.onewave-ai.com"
+    "name": "rzem-ai",
+    "url": "https://www.rzem.com"
   },
-  "homepage": "https://github.com/OneWave-AI/claude-code-mods/tree/main/agent-narrator",
-  "repository": "https://github.com/OneWave-AI/claude-code-mods",
+  "homepage": "https://github.com/rzem-ai/claude-code-mods/tree/main/agent-narrator",
+  "repository": "https://github.com/rzem-ai/claude-code-mods",
   "displayName": "Agent Narrator",
   "icon": "./.claude-plugin/icon.png",
-  "documentationUrl": "https://github.com/OneWave-AI/claude-code-mods/blob/main/agent-narrator/README.md",
-  "supportUrl": "https://www.onewave-ai.com/contact",
-  "privacyPolicyUrl": "https://www.onewave-ai.com/privacy",
-  "termsOfServiceUrl": "https://www.onewave-ai.com/terms"
+  "documentationUrl": "https://github.com/rzem-ai/claude-code-mods/blob/main/agent-narrator/README.md",
+  "supportUrl": "https://www.rzem.com/contact",
+  "privacyPolicyUrl": "https://www.rzem.com/privacy",
+  "termsOfServiceUrl": "https://www.rzem.com/terms"
 }

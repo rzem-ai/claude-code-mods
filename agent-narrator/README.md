@@ -11,7 +11,7 @@ Translates every tool call into one plain-English sentence ("Reading the pricing
 In a Claude Code session (2.1.287 or later):
 
 ```
-/plugin marketplace add OneWave-AI/claude-code-mods
+/plugin marketplace add rzem-ai/claude-code-mods
 /plugin install agent-narrator@claude-code-mods
 ```
 
@@ -25,4 +25,4 @@ Or load this folder for one session: `claude --plugin-dir ./agent-narrator`
 
 Run `claude plugin validate ./agent-narrator` to list every event it hooks and every call it makes. See the [repository README](../README.md#security) for the full security notes.
 
-Part of [claude-code-mods](https://github.com/OneWave-AI/claude-code-mods) by [OneWave AI](https://www.onewave-ai.com). MIT licensed.
+Part of [claude-code-mods](https://github.com/rzem-ai/claude-code-mods) by [rzem-ai](https://www.rzem-ai.com). MIT licensed.

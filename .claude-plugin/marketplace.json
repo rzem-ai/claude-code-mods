@@ -1,7 +1,7 @@
 {
   "$schema": "https://code.claude.com/schemas/marketplace.json",
   "name": "claude-code-mods",
-  "description": "Eleven open-source Claude Code mods by OneWave AI: panes, bands, status lines and tool-call guards",
+  "description": "Eleven open-source Claude Code mods by rzem-ai: panes, bands, status lines and tool-call guards",
   "owner": {
     "name": "Alex",
     "email": "alex@rzem.com",

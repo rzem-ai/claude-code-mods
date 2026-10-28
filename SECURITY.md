@@ -3,7 +3,7 @@
 ## Reporting a vulnerability
 
 Please do not open a public issue for a security problem. Report it privately through GitHub's
-[private vulnerability reporting](https://github.com/OneWave-AI/claude-code-mods/security/advisories/new)
+[private vulnerability reporting](https://github.com/rzem-ai/claude-code-mods/security/advisories/new)
 for this repository. We aim to reply within three business days.
 
 Useful to include: the mod, the Claude Code version (`claude --version`), and the steps that

@@ -1,9 +1,5 @@
 # Claude Code Mods
 
-Eleven mods for Claude Code, built in one night by [OneWave AI](https://www.onewave-ai.com).
-
-Read the write-up: [Claude Code Mods: What They Are, and the Ten We Open-Sourced](https://www.onewave-ai.com/blog/claude-code-mods).
-
 A mod is a Claude Code plugin made of function hooks. It can draw a live pane beside the transcript, a band above the prompt, a status line, or a toast. It can also block, rewrite, or react to any tool call, add slash commands, play sounds, and call the model. Mods hot-reload while you work.
 
 These are a mix of useful and ridiculous. All of them are MIT licensed. Fork them, break them, ship your own.
@@ -29,14 +25,14 @@ Requires Claude Code 2.1.287 or later.
 The fastest way is the plugin marketplace. In a Claude Code session:
 
 ```
-/plugin marketplace add OneWave-AI/claude-code-mods
+/plugin marketplace add rzem-ai/claude-code-mods
 /plugin install burn-meter@claude-code-mods
 ```
 
 Swap `burn-meter` for any mod name in the table. To hack on them instead, clone the repo:
 
 ```bash
-git clone https://github.com/OneWave-AI/claude-code-mods.git ~/claude-code-mods
+git clone https://github.com/rzem-ai/claude-code-mods.git ~/claude-code-mods
 ```
 
 Try one for a single session:
@@ -204,4 +200,4 @@ my-mod/
 
 MIT. See [LICENSE](LICENSE).
 
-Built by [OneWave AI](https://www.onewave-ai.com), an Anthropic Partner Network firm that trains teams on Claude and builds with it.
+Built by [rzem-ai](https://www.rzem-ai.com), an Anthropic Partner Network firm that trains teams on Claude and builds with it.

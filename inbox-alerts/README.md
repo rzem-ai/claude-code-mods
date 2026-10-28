@@ -11,7 +11,7 @@ Needs the Gmail, Slack, and Google Calendar connectors connected in claude.ai. S
 In a Claude Code session (2.1.287 or later):
 
 ```
-/plugin marketplace add OneWave-AI/claude-code-mods
+/plugin marketplace add rzem-ai/claude-code-mods
 /plugin install inbox-alerts@claude-code-mods
 ```
 
@@ -25,4 +25,4 @@ Or load this folder for one session: `claude --plugin-dir ./inbox-alerts`
 
 Run `claude plugin validate ./inbox-alerts` to list every event it hooks and every call it makes. See the [repository README](../README.md#security) for the full security notes.
 
-Part of [claude-code-mods](https://github.com/OneWave-AI/claude-code-mods) by [OneWave AI](https://www.onewave-ai.com). MIT licensed.
+Part of [claude-code-mods](https://github.com/rzem-ai/claude-code-mods) by [rzem-ai](https://www.rzem.com). MIT licensed.

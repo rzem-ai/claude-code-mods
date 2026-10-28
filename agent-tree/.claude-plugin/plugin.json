@@ -1,0 +1,8 @@
+{
+  "name": "agent-tree",
+  "version": "0.6.0",
+  "license": "MIT",
+  "author": { "name": "Alex", "url": "https://github.com/rzem-ai" },
+  "description": "Live pane with the tree of the orchestrator and its subagents: model, effort, tokens, tools and duration",
+  "types": "./types/index.d.ts"
+}
