@@ -1,10 +1,23 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "context-bar",
   "version": "0.1.3",
-  "description": "Your context window as a stacked bar above the prompt, a color per category, with token counts and the compaction point. /context-bar shows or hides it.",
+  "displayName": "Context Bar",
+  "description": "Your context window as a stacked bar above the prompt, a color per category, with token counts and the compaction point",
+  "types": "./types/index.d.ts",
+  "license": "MIT",
   "author": {
     "name": "Alex",
+    "email": "alex@rzem.com",
     "url": "https://github.com/rzem-ai"
   },
-  "types": "./types/index.d.ts"
+  "homepage": "https://github.com/rzem-ai/claude-code-mods/tree/main/context-bar",
+  "repository": "https://github.com/rzem-ai/claude-code-mods",
+  "documentationUrl": "https://github.com/rzem-ai/claude-code-mods/blob/main/context-bar/README.md",
+  "supportUrl": "https://github.com/rzem-ai/claude-code-mods/issues",
+  "keywords": [
+    "context",
+    "tokens",
+    "band"
+  ]
 }

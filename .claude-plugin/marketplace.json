@@ -1,7 +1,7 @@
 {
   "$schema": "https://code.claude.com/schemas/marketplace.json",
   "name": "claude-code-mods",
-  "description": "Eleven open-source Claude Code mods by rzem-ai: panes, bands, status lines and tool-call guards",
+  "description": "Eight open-source Claude Code mods by rzem-ai: live agent maps, context and cache bands, panes and alerts",
   "owner": {
     "name": "Alex",
     "email": "alex@rzem.com",
@@ -19,49 +19,34 @@
       "description": "Race Claude Code sessions on a task: live split-screen race track scoreboard"
     },
     {
-      "name": "boss-fight",
-      "source": "./boss-fight",
-      "description": "Failing tests spawn a pixel boss; every run that fixes tests lands a hit, zero failures is a KO with loot"
+      "name": "agent-tree",
+      "source": "./agent-tree",
+      "description": "Live pane with the tree of the orchestrator and its subagents: model, effort, tokens, tools and duration"
     },
     {
-      "name": "burn-meter",
-      "source": "./burn-meter",
-      "description": "Live session cost odometer above the prompt: a burning fuse, real-world comparisons, threshold alerts"
-    },
-    {
-      "name": "code-pet",
-      "source": "./code-pet",
-      "description": "A pixel pet that lives in a pane and reacts to what Claude does: eats on tool calls, gets sick on failures, panics on rm -rf, sleeps when idle, evolves as you ship"
+      "name": "context-bar",
+      "source": "./context-bar",
+      "description": "Your context window as a stacked bar above the prompt, a color per category, with token counts and the compaction point"
     },
     {
       "name": "inbox-alerts",
       "source": "./inbox-alerts",
-      "description": "Gmail + Slack alerts inside Claude Code: toasts, status count, and an Alerts pane"
+      "description": "Gmail, Slack and Calendar alerts inside Claude Code: toasts, a status count, and an Alerts pane"
     },
     {
-      "name": "inner-monologue",
-      "source": "./inner-monologue",
-      "description": "A pane of Claude's dry inner thoughts about your session, typed out live"
-    },
-    {
-      "name": "launch-codes",
-      "source": "./launch-codes",
-      "description": "Dangerous Bash commands need launch codes: red alert pane, siren, a code to arm and a LAUNCH to fire"
-    },
-    {
-      "name": "session-wrapped",
-      "source": "./session-wrapped",
-      "description": "Spotify Wrapped for a Claude Code session: an animated stat reveal and a shareable PNG card"
-    },
-    {
-      "name": "sportscaster",
-      "source": "./sportscaster",
-      "description": "Live TV play-by-play of your Claude Code session, spoken aloud with crowd effects"
+      "name": "mission-control",
+      "source": "./mission-control",
+      "description": "Live map of the main agent, its subagents and every tool call, plus a code map of the files they touch"
     },
     {
       "name": "swarm",
       "source": "./swarm",
-      "description": "Mission control for subagents and agent teams: who is running, what each is doing, who spawned whom, who is talking to whom"
+      "description": "Mission control for subagents and agent teams: who is running, what each is doing, who spawned whom, who is talking to whom, and how they overlap"
+    },
+    {
+      "name": "token-weather",
+      "source": "./token-weather",
+      "description": "A live forecast of the context window above the prompt, with a prompt-cache countdown"
     }
   ]
 }

@@ -1,7 +1,9 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "inbox-alerts",
   "version": "0.1.0",
-  "description": "Gmail + Slack alerts inside Claude Code: toasts, status count, and an Alerts pane",
+  "displayName": "Inbox Alerts",
+  "description": "Gmail, Slack and Calendar alerts inside Claude Code: toasts, a status count, and an Alerts pane",
   "types": "./types/index.d.ts",
   "userConfig": {
     "email": {
@@ -19,15 +21,19 @@
   },
   "license": "MIT",
   "author": {
-    "name": "rzem-ai",
-    "url": "https://www.rzem.com"
+    "name": "Alex",
+    "email": "alex@rzem.com",
+    "url": "https://github.com/rzem-ai"
   },
   "homepage": "https://github.com/rzem-ai/claude-code-mods/tree/main/inbox-alerts",
   "repository": "https://github.com/rzem-ai/claude-code-mods",
-  "displayName": "Inbox Alerts",
-  "icon": "./.claude-plugin/icon.png",
   "documentationUrl": "https://github.com/rzem-ai/claude-code-mods/blob/main/inbox-alerts/README.md",
-  "supportUrl": "https://www.rzem.com/contact",
-  "privacyPolicyUrl": "https://www.rzem.com/privacy",
-  "termsOfServiceUrl": "https://www.rzem.com/terms"
+  "supportUrl": "https://github.com/rzem-ai/claude-code-mods/issues",
+  "icon": "./.claude-plugin/icon.png",
+  "keywords": [
+    "gmail",
+    "slack",
+    "calendar",
+    "notifications"
+  ]
 }

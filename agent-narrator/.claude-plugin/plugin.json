@@ -1,19 +1,25 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "agent-narrator",
   "version": "0.1.0",
+  "displayName": "Agent Narrator",
   "description": "Watch the agent work: every step in plain English, with a live time-saved counter",
   "types": "./types/index.d.ts",
   "license": "MIT",
   "author": {
-    "name": "rzem-ai",
-    "url": "https://www.rzem.com"
+    "name": "Alex",
+    "email": "alex@rzem.com",
+    "url": "https://github.com/rzem-ai"
   },
   "homepage": "https://github.com/rzem-ai/claude-code-mods/tree/main/agent-narrator",
   "repository": "https://github.com/rzem-ai/claude-code-mods",
-  "displayName": "Agent Narrator",
-  "icon": "./.claude-plugin/icon.png",
   "documentationUrl": "https://github.com/rzem-ai/claude-code-mods/blob/main/agent-narrator/README.md",
-  "supportUrl": "https://www.rzem.com/contact",
-  "privacyPolicyUrl": "https://www.rzem.com/privacy",
-  "termsOfServiceUrl": "https://www.rzem.com/terms"
+  "supportUrl": "https://github.com/rzem-ai/claude-code-mods/issues",
+  "icon": "./.claude-plugin/icon.png",
+  "keywords": [
+    "agents",
+    "narration",
+    "training",
+    "explainer"
+  ]
 }

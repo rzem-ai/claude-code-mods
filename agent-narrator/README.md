@@ -25,4 +25,4 @@ Or load this folder for one session: `claude --plugin-dir ./agent-narrator`
 
 Run `claude plugin validate ./agent-narrator` to list every event it hooks and every call it makes. See the [repository README](../README.md#security) for the full security notes.
 
-Part of [claude-code-mods](https://github.com/rzem-ai/claude-code-mods) by [rzem-ai](https://www.rzem-ai.com). MIT licensed.
+Part of [claude-code-mods](https://github.com/rzem-ai/claude-code-mods) by [rzem-ai](https://github.com/rzem-ai). MIT licensed.

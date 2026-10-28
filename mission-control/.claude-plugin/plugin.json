@@ -1,10 +1,24 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "mission-control",
   "version": "0.1.7",
-  "description": "/mission opens a live map of the main agent, its subagents and every tool call, plus a code map of the files they touch.",
+  "displayName": "Mission Control",
+  "description": "Live map of the main agent, its subagents and every tool call, plus a code map of the files they touch",
+  "types": "./types/index.d.ts",
+  "license": "MIT",
   "author": {
-    "name": "Hamza Zafar",
-    "url": "https://github.com/hamzafer"
+    "name": "Alex",
+    "email": "alex@rzem.com",
+    "url": "https://github.com/rzem-ai"
   },
-  "types": "./types/index.d.ts"
+  "homepage": "https://github.com/rzem-ai/claude-code-mods/tree/main/mission-control",
+  "repository": "https://github.com/rzem-ai/claude-code-mods",
+  "documentationUrl": "https://github.com/rzem-ai/claude-code-mods/blob/main/mission-control/README.md",
+  "supportUrl": "https://github.com/rzem-ai/claude-code-mods/issues",
+  "keywords": [
+    "agents",
+    "subagents",
+    "tool-calls",
+    "code-map"
+  ]
 }

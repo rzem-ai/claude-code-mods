@@ -19,7 +19,26 @@ Main session · opus-5-5 · high
 Subagents: 12.4k in / 0.6k out
 ```
 
-## Install and use in Claude Code Desktop
+## Install
+
+In a Claude Code session (2.1.287 or later):
+
+```
+/plugin marketplace add rzem-ai/claude-code-mods
+/plugin install agent-tree@claude-code-mods
+```
+
+Or load this folder for one session: `claude --plugin-dir ./agent-tree`
+
+## What it reaches
+
+| Mod | Network | Runs processes | Files | Calls a model | Sends data anywhere |
+| --- | --- | --- | --- | --- | --- |
+| agent-tree | Local only: its own page server on `127.0.0.1` (ports 47821 to 47830), behind a per-session key | `node` (the page server); on Windows, Edge for the app window | No | No | Only to its own local page |
+
+Run `claude plugin validate ./agent-tree` to list every event it hooks and every call it makes. See the [repository README](../README.md#security) for the full security notes.
+
+## Install from a clone in Claude Code Desktop
 
 1. Clone the repository:
 
@@ -30,10 +49,10 @@ Subagents: 12.4k in / 0.6k out
 2. Point Claude Code at the folder with a **user** environment variable. On Windows (PowerShell):
 
    ```powershell
-   [Environment]::SetEnvironmentVariable('CLAUDE_CODE_PLUGIN_DIRS', 'C:\projects\claude-code-mods', 'User')
+   [Environment]::SetEnvironmentVariable('CLAUDE_CODE_PLUGIN_DIRS', 'C:\projects\claude-code-mods\agent-tree', 'User')
    ```
 
-   On macOS/Linux, export `CLAUDE_CODE_PLUGIN_DIRS=/path/to/claude-code-mods` in your shell profile (and make sure the desktop app inherits it).
+   On macOS/Linux, export `CLAUDE_CODE_PLUGIN_DIRS=/path/to/claude-code-mods/agent-tree` in your shell profile (and make sure the desktop app inherits it).
 
 3. Quit the Claude desktop app completely and open it again, so new sessions see the variable.
 
@@ -42,7 +61,7 @@ Subagents: 12.4k in / 0.6k out
 From the terminal CLI, you can load it for a single session instead:
 
 ```bash
-claude --plugin-dir C:\projects\claude-code-mods
+claude --plugin-dir C:\projects\claude-code-mods\agent-tree
 ```
 
 ### Reading the pane
@@ -144,8 +163,8 @@ tsc -p .
 
 ## Contributing
 
-Issues and pull requests are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md) for how to run your clone, what to check and the commit style.
+Issues and pull requests are welcome at [rzem-ai/claude-code-mods](https://github.com/rzem-ai/claude-code-mods/issues).
 
 ## License
 
-[MIT](LICENSE)
+[MIT](../LICENSE)
